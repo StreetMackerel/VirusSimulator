@@ -1,0 +1,17 @@
+html, body, div, canvas {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    color: antiquewhite;
+    padding:15px;
+    padding-left:25px;
+    padding-right:25px;
+    background-color:black
+}
+
+p {
+   position: absolute;
+   right:0;
+}

@@ -1,0 +1,23 @@
+<head>
+    <script language="javascript" type="text/javascript" src="p5.min.js"></script>
+    <script language="javascript" type="text/javascript" src="molecule.js"></script>
+    <script language="javascript" type="text/javascript" src="lung.js"></script>
+    <script language="javascript" type="text/javascript" src="sketch.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <p><br>
+        <input style="margin-right: 10px;" type="button" value="Stop" onclick="noLoop()">
+        <input style="margin-right: 10px;" type="button" value="Start" onclick="loop()">
+        <input style="margin-right: 50px;" type="button" value="Names" onclick="namesButton()">
+    </p>
+    <p style="bottom:50; color:aliceblue; margin-right: 10px;">Med:
+        <input id="KT" type="number" value="5">
+        <input type="button" value="Submit" onclick="MedButton()">
+    </p>
+    <p style="bottom:0; color:aliceblue; margin-right: 10px;">Age:
+        <input id="age" type="number" value="25">
+        <input type="button" value="Submit" onclick="ageButton()">
+    </p>
+</body>
